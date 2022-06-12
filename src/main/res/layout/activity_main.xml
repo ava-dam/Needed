@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/heading_text"
+
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tasks"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#FDD835"
+        android:onClick="launchTaskActivity"
+        android:text="@string/schedule_tasks"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/note"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tasks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#FDD835"
+        android:onClick="launchNoteActivity"
+        android:text="@string/make_a_note"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="256dp"
+        android:backgroundTint="#FDD835"
+        android:onClick="launchCalendarActivity"
+        android:text="@string/calendar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:layout_below="@id/note"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
+
+
+
+

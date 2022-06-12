@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="heading_text">Needed.</string>
+    <string name="schedule_tasks">Schedule Tasks</string>
+    <string name="make_a_note">Make a Note</string>
+    <string name="calendar">Calendar</string>
+</resources>
